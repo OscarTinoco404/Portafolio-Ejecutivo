@@ -132,3 +132,26 @@
 .worked_with img:hover {
     transform: scale(1.2);
 }
+
+.seccion-uno, .seccion-dos {
+    width: 100%;
+    float: inline-end;
+    margin-top: 10px;
+}
+
+.seccion-uno h2, .seccion-dos h2 {
+    font-family: var(--font-raleway);
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.seccion-uno {
+    background: #ffffff;
+    height: 700px;
+}
+
+.seccion-dos {
+    background: #080808;
+    height: 700px;
+}
