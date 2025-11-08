@@ -133,25 +133,35 @@
     transform: scale(1.2);
 }
 
-.seccion-uno, .seccion-dos {
+.seccion-dos, .seccion-tres, .seccion-cuatro,.seccion-cinco {
     width: 100%;
     float: inline-end;
     margin-top: 10px;
 }
 
-.seccion-uno h2, .seccion-dos h2 {
+.seccion-dos h2, .seccion-tres h2, .seccion-cuatro h2,.seccion-cinco h2 {
     font-family: var(--font-raleway);
     font-size: 28px;
     color: #333;
     margin-bottom: 10px;
 }
 
-.seccion-uno {
+.seccion-dos {
     background: #ffffff;
     height: 700px;
 }
 
-.seccion-dos {
+.seccion-tres {
+    background: #080808;
+    height: 700px;
+}
+
+.seccion-cuatro {
+    background: #ffffff;
+    height: 700px;
+}
+
+.seccion-cinco {
     background: #080808;
     height: 700px;
 }
