@@ -102,3 +102,66 @@
     font-weight: 700;
     font-family: var(--font-ibm);
 }
+
+.worked_with ul {
+    display: flex;
+    list-style: none;
+}
+
+.worked_with ul{
+    align-items: center;
+    height: 100%;
+    gap: 40px;
+    margin-left: 157px;
+    margin-top: 33px;
+}
+
+.worked_with h1{
+    color: #fff;
+    font-weight: 10px;
+    font-size: 13px;
+    font-family: var(--font-raleway);
+    margin-left: 128px;
+    margin-top: 33px;
+}
+
+.worked_with img {
+    transition: all 0.5s ease;
+}
+
+.worked_with img:hover {
+    transform: scale(1.2);
+}
+
+.seccion-dos, .seccion-tres, .seccion-cuatro,.seccion-cinco {
+    width: 100%;
+    float: inline-end;
+    margin-top: 10px;
+}
+
+.seccion-dos h2, .seccion-tres h2, .seccion-cuatro h2,.seccion-cinco h2 {
+    font-family: var(--font-raleway);
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.seccion-dos {
+    background: #ffffff;
+    height: 700px;
+}
+
+.seccion-tres {
+    background: #080808;
+    height: 700px;
+}
+
+.seccion-cuatro {
+    background: #ffffff;
+    height: 700px;
+}
+
+.seccion-cinco {
+    background: #080808;
+    height: 700px;
+}
