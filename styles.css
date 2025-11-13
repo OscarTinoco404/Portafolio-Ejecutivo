@@ -133,23 +133,128 @@
     transform: scale(1.2);
 }
 
-.seccion-dos, .seccion-tres, .seccion-cuatro,.seccion-cinco {
+.seccion-tres, .seccion-cuatro,.seccion-cinco {
     width: 100%;
     float: inline-end;
     margin-top: 10px;
 }
 
-.seccion-dos h2, .seccion-tres h2, .seccion-cuatro h2,.seccion-cinco h2 {
+.seccion-tres h2, .seccion-cuatro h2,.seccion-cinco h2 {
     font-family: var(--font-raleway);
     font-size: 28px;
     color: #333;
     margin-bottom: 10px;
 }
 
-.seccion-dos {
-    background: #ffffff;
-    height: 700px;
+/**seccion 2, segunda pagina**/
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: #333;
 }
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.case-studies h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 60px;
+}
+
+/* ---- ESTRUCTURA DE LAS TARJETAS ---- */
+.case {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    gap: 40px;
+    flex-direction: row; /* Texto izquierda, imagen derecha */
+}
+
+/* ---- INVERTIR ORDEN (imagen izquierda, texto derecha) ---- */
+.case.reverse {
+    flex-direction: row-reverse;
+}
+
+.case-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.case-content {
+    flex: 1;
+}
+
+.case-content h2 {
+    margin: 10px 0;
+    font-size: 1.4em;
+}
+
+.case-content p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* ---- ETIQUETAS ---- */
+.tag {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.tag.orange { color: #f39c12; }
+.tag.blue { color: #007bff; }
+.tag.green { color: #27ae60; }
+
+/* ---- BOTONES ---- */
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.2s, opacity 0.2s;
+}
+
+.btn.orange { background-color: #f39c12; }
+.btn.blue { background-color: #007bff; }
+.btn.green { background-color: #27ae60; }
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+/* ---- RESPONSIVE ---- */
+@media (max-width: 768px) {
+    .case, .case.reverse {
+        flex-direction: column; /* En móviles, todo se apila */
+        text-align: center;
+    }
+
+    .case-image img {
+        max-width: 100%;
+    }
+}
+
 
 .seccion-tres {
     background: #080808;
