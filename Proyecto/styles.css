@@ -1,0 +1,91 @@
+.Recent_work {
+max-width: 1200px;
+margin: 100px auto;
+padding: 2rem;
+font-family: "IBM Plex Mono", monospace;
+}
+.Recent_work h3{
+color: #080808;
+font-family: "Raleway", sans-serif;
+font-weight: 800;
+font-size: 34px;
+margin-bottom: 1rem;
+margin-top: 80px;
+}
+.Recent_h {
+text-align: center;
+margin-bottom: 3rem;
+}
+.Recent_h p{
+color: #9c9c9c;
+font-size: 15px;
+line-height: 1.8;
+max-width: 700px;
+margin: 0 auto;
+}
+.Markgroup_area{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 4rem;
+justify-content: center;
+align-items: start;
+max-width: 1100px;
+margin: 0 auto;
+}
+.Markgroup1,
+.Markgroup2 {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+background: #fff;
+border-radius: 10px;
+padding: 1rem;
+box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+transition: transform 0.3s ease;
+}
+.Markgroup_image1,
+.Markgroup_image2 {
+width: 100%;
+border-radius: 8px;
+object-fit: cover;
+transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.Markgroup_image1 :hover,
+.Markgroup_image2 :hover {
+transform: scale(1.03);
+box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+.Markgroup_text{
+margin-top: 1.5rem;
+}
+.Markgroup_text h4 {
+color: #080808;
+font-family: "Raleway";
+font-weight: 800;
+font-size: 22px;
+margin-bottom: 1rem;
+}
+.Markgroup_text p{
+color: #9c9c9c;
+font-size: 14px;
+line-height: 1.7;
+margin-bottom: 1.8rem;
+text-align: left;
+}
+.btn_green_M{
+background: #3f8e00;
+border: 1px solid #628a18;
+border-radius: 4px;
+display: flex;
+width: 120px;
+height: 32px;
+justify-content: center;
+align-items: center;
+margin-bottom: 79px;
+gap: 0px;
+color: #ffff;
+text-decoration: none;
+font-size: 14px;
+font-weight: 700;
+font-family: "IBM Plex Mono", monospace;
+}
